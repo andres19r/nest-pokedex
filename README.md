@@ -20,7 +20,7 @@ npm i -g @nestjs/cli
 4. Set up the database
 
 ```
-docker-compose up -d
+docker compose up -d
 ```
 
 ## Used Stack
