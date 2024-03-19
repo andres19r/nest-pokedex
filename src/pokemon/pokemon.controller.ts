@@ -16,6 +16,8 @@ export class PokemonController {
   constructor(private readonly pokemonService: PokemonService) {}
 
   @Post()
+  // @HttpCode(200)
+  // @HttpCode(HttpStatus.OK)
   create(@Body() createPokemonDto: CreatePokemonDto) {
     return this.pokemonService.create(createPokemonDto);
   }
